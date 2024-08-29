@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 // Define the mongoDB connection URL
 // const mongoURL = process.env.MONGODB_URL_LOCAL;    // connection url for local machine
+// const mongoURL = "mongodb+srv://shreya:Mishtidoi143@cluster0.a1s4o.mongodb.net/";
 const mongoURL = process.env.MONGODB_URL; // connection url for cloud, running online
 
 mongoose.connect(mongoURL, {
